@@ -1,0 +1,106 @@
+/**
+Plugin Name: Creative-Signal Testimonials
+Plugin URI: http://creative-signal.com/wordpress/plugins/creativesignal-testimonials
+Description: Display testimonials on your website in various ways and effects. Add a testimonial widget to your website. Display a testimonial anywhere by tag code. Categorize testimonials and display different categories on different places
+Author: CreativeSignal Team
+Version: 1.0.0
+Author URI: http://creative-signal.com/
+Email: creativesignalteam@gmail.com
+@copyright  Copyright (C) 2012 creative-signal.com. All Rights Reserved.
+@license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.creativesignal-testimonial-clr
+{
+	clear: both;
+}
+#creativesignal-testimonial-admin-form {
+	padding: 15px;
+}
+#creativesignal-testimonial-admin-form legend {
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 21px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 0;
+    width: 100%;
+    color: #333333;
+}
+#creativesignal-testimonial-admin-form .form-horizontal .control-group:before, 
+#creativesignal-testimonial-admin-form .form-horizontal .control-group:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+#creativesignal-testimonial-admin-form .form-horizontal .control-group:after {
+    clear: both;
+}
+#creativesignal-testimonial-admin-form .form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+#creativesignal-testimonial-admin-form legend + .control-group {
+    margin-top: 20px;
+}
+
+#creativesignal-testimonial-admin-form .form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 160px;
+    display: block;
+    margin-bottom: 5px;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;    
+}
+
+#creativesignal-testimonial-admin-form .form-horizontal .controls {
+    margin-left: 180px;
+}
+
+/*======================================= DATA TABLES =============================================*/
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_length,
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_info {
+	float: left;
+	padding-bottom: 15px;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_filter,
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_paginate {
+	float: right;
+	padding-bottom: 15px;
+}
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_info,
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_paginate {
+	padding-top: 10px;
+	cursor: pointer;
+}
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list_paginate a {
+	padding: 0 10px;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list .sorting_asc {
+	background: url('../images/icons/19x19/sort_asc.png') no-repeat center right;
+	cursor: pointer;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list .sorting_desc {
+	background: url('../images/icons/19x19/sort_desc.png') no-repeat center right;
+	cursor: pointer;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list .sorting {
+	background: url('../images/icons/19x19/sort_both.png') no-repeat center right;
+	cursor: pointer;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list .sorting_asc_disabled {
+	background: url('../images/icons/19x19/sort_asc_disabled.png') no-repeat center right;
+	cursor: pointer;
+}
+
+#creativesignal-testimonial-admin-form #table-creativesignal-testimonial-list_wrapper #table-creativesignal-testimonial-list .sorting_desc_disabled {
+	background: url('../images/icons/19x19/sort_desc_disabled.png') no-repeat center right;
+	cursor: pointer;
+}
